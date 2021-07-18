@@ -1,0 +1,60 @@
+body{
+    background-color: pink;
+}
+
+.wrapper{
+    width: 800px;
+    margin: auto;
+}
+
+#primary-title{
+    font-family: 'Dancing Script', cursive;
+    font-size: 48px;
+}
+
+h1,h2{
+    color: white;
+}
+
+p{
+    color: gray;
+}
+
+.pretty-text{
+    font-style: italic;
+}
+
+div .purple{
+    background-color: purple;
+}
+
+.border{
+    text-align: center;
+}
+
+.border li{
+    /* border-width: 2px;
+    border-style: solid;
+    border-color: yellow; */
+
+    /* border:2px solid yellow; */
+
+    list-style: none;
+    display: inline;
+}
+
+.border a{
+
+    text-decoration: none;
+    color: white;
+    font-size: 28px;
+    margin-left: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold ;
+}
+.border a:hover{
+    background-color: white;
+    color: pink;
+    padding: 10px;
+    margin-left: 0px;
+}

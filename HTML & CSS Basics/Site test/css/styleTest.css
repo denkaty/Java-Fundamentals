@@ -1,0 +1,50 @@
+.wrapper{
+    width: 800px;
+    margin: auto;
+}
+
+.body-color{
+    background-color: pink;
+}
+
+.border{
+    text-align: center;
+}
+
+.border li{
+    list-style: none;
+    display: inline;
+}
+.border a{
+    text-decoration: none;
+    font-size: 28px;
+    color: white;
+    margin-left: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.border a:hover{
+    background-color: white;
+    color: pink;
+    padding: 10px;
+    margin-left: 0px;
+}
+
+h1,h2{
+    color: white;
+}
+#primary-title{
+    font-family: 'Dancing Script', cursive;
+    font-size: 48px;
+}
+.pretty-text{
+    font-style: italic;
+}
+
+p{
+    color: gray;
+}
+
+div .purple{
+    background-color: purple;
+}

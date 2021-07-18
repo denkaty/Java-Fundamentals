@@ -1,0 +1,58 @@
+%d – int – int (name) = Integer.parseInt(scanner.nextLine());
+%f – double - double (name) = Double.parseDouble(scanner.nextLine());
+%s – String – String (name) = scanner.nextline()
+%c – char
+%.2f (6.00)
+%n (new line)
+
+HTML
+<!DOCTYPE>
+<h>      - заглавие
+<p>      - paragraph
+<ul>     - unordered list (. . .)
+<ol>     - ordered list  (1,2,3)
+<li>     - работи с <ul> и <ol>
+
+<table>  - таблица
+<thead>  - главна част на таблицата
+<tbody>  - главна част на таблицата
+<tr>     - table roll (ред в таблица)
+<td>     - table data (колона в таблица)
+
+Attributes
+<img src="img/wedding.jpg" alt="wedding-photo">
+<a href="contact.html" target="asd">Attend</a>   -  target=""  - служи за отваряне на линка в нов прозорец
+
+<form></form>                                                  - за да работи правилно (Submit бутона и др...)
+<input type="text">                                            - служи за създаване на поле за писане
+<input type="radio" name="">                                   - служи за създаване на отметки (male-female)
+<input type="submit">
+
+<label for="form=name">Name:</label>                           - Лейбъл
+<input type="text">                                            - служи за съдаване на поле за писане (свързва се с лейбъл)
+<br>                                                           -нов ред
+
+
+
+CSS
+Пример за inline оцветяване: <h1 style="color: white">Title</h1>
+Пример за Internal Style оцветяване: <head> <style>	p{color: gray} </style> </head>
+<link rel="stylesheet" type="text/css" href="css/style.css">   - свързва css файла с html (External Style)
+
+font-weight: bold;                                             - одебеляване
+fond-style: Italic                                             - наклон надясно
+
+tag - например за <h1 style="color: white">
+#thank-you - например за #thank-you{font-style: italic;}
+.(!nameOfClass!){font-style: Italic;}
+
+list-style: none;                     - премахва знаците пред ul
+display: inline;                      - блока го прави да е на един ред (пример: <p>...</p> ; , <div>...</div>
+text-decoration: none;                - премахва линията под думите линкове
+
+.wrapper{width: 800px; margin:auto)   - централизира цялата страница
+text-align: center;                   - централизира реда
+
+
+
+
